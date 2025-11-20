@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
-import { Search, Compare, MessageSquare, CheckCircle2 } from 'lucide-react'
+import { Search, Scale, MessageSquare, CheckCircle2 } from 'lucide-react'
 
 const steps = [
   { title: 'Explore vendors', icon: Search, desc: 'Find top-rated professionals near you.' },
-  { title: 'Compare services', icon: Compare, desc: 'Transparent pricing and packages.' },
+  { title: 'Compare services', icon: Scale, desc: 'Transparent pricing and packages.' },
   { title: 'Chat instantly', icon: MessageSquare, desc: 'Connect and discuss details in real-time.' },
   { title: 'Book with confidence', icon: CheckCircle2, desc: 'Secure bookings with verified vendors.' },
 ]

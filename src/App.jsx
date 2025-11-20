@@ -8,11 +8,16 @@ import Testimonials from './components/Testimonials'
 import WhyEventory from './components/WhyEventory'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import ParallaxBackdrop from './components/ParallaxBackdrop'
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      <div className="fixed inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_10%_-10%,rgba(99,102,241,0.15),transparent),radial-gradient(1000px_500px_at_90%_-10%,rgba(236,72,153,0.15),transparent)]" />
+      {/* Layered, scroll-linked parallax backdrop */}
+      <ParallaxBackdrop />
+
+      {/* Static base radial gradients for extra depth */}
+      <div className="fixed inset-0 -z-20 bg-[radial-gradient(1200px_600px_at_10%_-10%,rgba(99,102,241,0.12),transparent),radial-gradient(1000px_500px_at_90%_-10%,rgba(236,72,153,0.12),transparent)]" />
 
       <Navbar />
       <main>

@@ -15,10 +15,12 @@
   html {
     font-family: var(--font-sans);
     font-feature-settings: "rlig" 1, "calt" 1;
+    scroll-behavior: smooth; /* enable smooth anchor scrolling */
   }
 
   body {
     @apply antialiased;
+    background: #020617; /* slate-950 fallback */
   }
 }
 
